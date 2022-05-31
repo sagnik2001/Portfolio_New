@@ -2,9 +2,8 @@ import React from 'react';
 import emailjs from 'emailjs-com'
 import {Container,Row,Col,Form} from 'react-bootstrap';
 import "./Contact.css"
-import {useForm} from "react-hook-form"
 const Contact=()=>{
-  const {register,handleSubmit,formState:{errors}} =useForm()
+
   const onSubmitHandler=(e)=>{
   e.preventDefault();
 

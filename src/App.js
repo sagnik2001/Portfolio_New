@@ -14,7 +14,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Pre from "./components/Pre.js"
 function App() {
