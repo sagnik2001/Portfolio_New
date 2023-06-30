@@ -62,7 +62,7 @@ const Resume = () => {
                 "Worked on building the complete MERN project.",
               ]}
             />
-             <Resumecontent
+            <Resumecontent
               title="Web Developer [Uem Web Battle Hackathon]"
               content={[
                 "Worked on building front-end UI design using HTML, CSS, JavaScript ,React.",
@@ -80,11 +80,13 @@ const Resume = () => {
             <Resumecontent
               title="University Of Engineering And Management "
               date="2020 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}nd Sem)`]}
+              content={[`CGPA: 9.234 (Till 5th Sem)`]}
             />
 
             <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent title="" content={[`Current score in Gfg ${gfg}`]} />
+            <Resumecontent title="" content={[`Solved Over 600 problems across Leetcode and 250 problems in GFG`]} />
+            <Resumecontent title="" content={[`Ranked Top 22% in Leetcode Contest`]} />
+            <Resumecontent title="" content={[`Secured 2785 out of 19437 in Leetcode Biweekly Contest`]} />
           </Col>
         </Row>
         <Row

@@ -19,7 +19,7 @@ function Home2() {
             <span className="purple"> HELLO THERE! </span> 
             </h1>
             <p className="home-about-body">
-              I am a Front End Web Developer from India . Aspiring to be a Software Engineer
+              I am a Front End Web Developer . Aspiring to be a Software Engineer
               <br />
               <br />I am proficient in languages like
               <i>
@@ -41,7 +41,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript Library 
                 </b>
               </i>
               &nbsp; like
@@ -55,7 +55,7 @@ function Home2() {
                 </b>
               </i>
               <i>
-                <b className="purple"> Node js with MongoDb as Database</b>
+                <b className="purple"> Node js with MongoDb,MySql as Database</b>
               </i>
             </p>
           </Col>
