@@ -1,4 +1,4 @@
-import {React,useState,useEffect} from "react"
+import { React, useState, useEffect } from "react"
 import Navbar from "./components/Navbar.js"
 import About from "./components/About/About.js"
 import Projects from "./components/Projects/Projects.js"
@@ -12,35 +12,35 @@ import Header from "./components/Header.js";
 
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 import Pre from "./components/Pre.js"
 function App() {
   const [load, upadateLoad] = useState(true);
-  
+
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
-    
+
     return () => clearTimeout(timer);
   }, []);
   return (
-    
+
     <Router>
-       <Pre load={load} />
+      <Pre load={load} />
       <div className="App">
-       <Navbar/>
-       <Switch>
-        <Route path="/" exact component={Header} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/contacts" component={Contact} className="main-content" />
-       </Switch>
-       <Footer/>
-     </div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Header />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contacts" element={<Contact />} className="main-content" />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }
