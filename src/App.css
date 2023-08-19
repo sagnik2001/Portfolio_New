@@ -147,7 +147,7 @@ img {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/29/Loader.gif);
+  background-image: url("./loader.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
