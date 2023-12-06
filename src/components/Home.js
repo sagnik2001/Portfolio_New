@@ -16,10 +16,10 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-            <span className="purple"> HELLO THERE! </span> 
+              <span className="purple"> HELLO THERE! </span>
             </h1>
             <p className="home-about-body">
-              I am a Front End Web Developer . Aspiring to be a Software Engineer
+              I am an engineer currently learning to master the art of creating scalable websites and applications. My interest lies in crafting exceptional user experiences and delivering meaningful impact through my work.
               <br />
               <br />I am proficient in languages like
               <i>
@@ -29,19 +29,19 @@ function Home2() {
               <br />
               My field of Interest's are creating new &nbsp;
               <i>
-                <b className="purple">Websites </b> , <b className="purple">Debugging </b> 
+                <b className="purple">Websites </b> , <b className="purple">Debugging </b>
                 also in areas related to{" "}
                 <b className="purple">
-                   Web Design
+                  Web Design
                 </b>
               </i>
               <br />
               <br />
-            I have worked on number of projects using <b className="purple">Html Css</b> and
+              I have worked on number of projects using <b className="purple">Html Css</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library 
+                  Modern Javascript Library
                 </b>
               </i>
               &nbsp; like

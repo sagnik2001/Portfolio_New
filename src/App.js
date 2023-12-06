@@ -17,15 +17,9 @@ import {
 } from "react-router-dom";
 import Pre from "./components/Pre.js"
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, upadateLoad] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      upadateLoad(false);
-    }, 5000);
-
-    return () => clearTimeout(timer);
-  }, []);
+ 
   return (
 
     <Router>
