@@ -20,7 +20,7 @@ const Projects = () => {
               videoPath={project3}
               title="PregBuddy"
               description="Pregbuddy is a simple platform to book your appointments and track them. . Connection with doctors and appointment bookings are made simpler. Throughout it will build connections with your doctors."
-              link="https://pregbuddysite.netlify.app/"
+              link="https://prega-tracker-web.vercel.app/"
             />
           </Col>
 
@@ -36,8 +36,8 @@ const Projects = () => {
             <ProjectCard
               videoPath={project2}
               title="Chatify-A Web Chat Application"
-              description="A personal Web Chat Application created by React js and firebase where we you can add channels and can chat and send media like photos to your friends with login and registration"
-              link="https://github.com/sagnik2001/slack"
+              description="Web Application For Chat Using ReactJs and Firebase. Users can authenticate, and send messages synchronized with Firebase Realtime Database."
+              link="https://chatifyus.netlify.app/"
             />
           </Col>
         </Row>
@@ -52,6 +52,7 @@ const Projects = () => {
           </Col>
         </Row>
       </Container>
+      
     </Container>
   );
 };

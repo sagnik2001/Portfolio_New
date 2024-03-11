@@ -24,9 +24,8 @@ const Header=()=>{
                <Typewriter
       options={{
         strings: [
-          "Developer..",
+          "Software Engineer..",
           "Programmer..",
-          "Front End Developer..",
           "Open Source Contributor..",
         ],
         autoStart: true,
